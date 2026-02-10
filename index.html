@@ -156,7 +156,7 @@ body {
 /* 主屏幕 */
 .launcher {
     padding-top: 44px;
-    height: 100vh;
+    height:calc(100vh - 44px);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -422,7 +422,7 @@ body {
     border-radius: var(--radius-full);
 }
 
-::-webkit-scrollbar-thumb:hover {
+::-webkit-scrollbar-thumb::hover {
     background: var(--border-dark);
 }
 
@@ -457,7 +457,7 @@ body {
         position: relative;
     }
 }
-        </style>
+  </style>
 </head>
 <body>
     <!-- 主应用容器 -->
